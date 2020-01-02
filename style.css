@@ -1,0 +1,29 @@
+body,html{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+body{
+    height:400%;
+    background-color:rgb(0, 255, 106);
+}
+#boxone{
+    height:300px;
+    width:300px;
+    background-color:yellow;
+    position:static;
+}
+.box-child{
+    height:30px;
+    width:30px;
+    background-color:red;
+    position:absolute;
+    right:10px;
+    top:10px;
+}
+#boxtwo{
+    height:300px;
+    width:300px;
+    background-color:rgb(132, 152, 158);
+    position:fixed;
+}
